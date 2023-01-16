@@ -1,0 +1,188 @@
+.main__container {
+  padding-top: 11.8rem;
+}
+.hero__item1 {
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+}
+.hero__info {
+}
+.hero__title {
+  width: 445px;
+  height: 154px;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 48px;
+  /* or 86% */
+
+  letter-spacing: -2px;
+
+  color: #512051;
+}
+.hero__desc {
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 500;
+  width: 445px;
+  height: 75px;
+  /* or 132% */
+
+  letter-spacing: -0.633333px;
+
+  color: #927b91;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  width: 445px;
+  height: 56px;
+  background: #f7f2f7;
+  border-radius: 8px;
+  padding: 2rem 0 2rem 3.2rem;
+}
+.hero__item1 {
+  margin-left: 12.5rem;
+  margin-bottom: 1.6rem;
+}
+.hero__img {
+  display: block;
+  margin-right: 3.45rem;
+}
+.hero__item--disc {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 16px;
+  /* identical to box height */
+
+  color: #512051;
+}
+.hero__item2 {
+  margin-left: 17.3rem;
+  margin-bottom: 1.6rem;
+}
+.hero__item3 {
+  margin-left: 22rem;
+}
+
+.feautes__list {
+  display: flex;
+}
+.feautes__item1 {
+  margin-top: 7.1rem;
+  margin-right: 3rem;
+}
+.items {
+  padding: 4rem 3.2rem 3.5rem;
+  background: #512051;
+  border-radius: 8px;
+}
+.feautes__user {
+  display: flex;
+}
+.feautes__img {
+  border-radius: 50%;
+  margin-right: 2.3rem;
+}
+.feautes__user--info {
+  padding-bottom: 3.2rem;
+}
+.feautes__title {
+  padding-bottom: 4px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 16px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.feautes__disc {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 16px;
+  /* identical to box height */
+
+  color: #ee69a4;
+}
+.feautes__dics {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  /* or 129% */
+
+  letter-spacing: -0.303571px;
+
+  color: #ffffff;
+}
+.feautes__item2 {
+  margin-top: 8.7rem;
+  margin-right: 3rem;
+}
+.feautes__item3 {
+  margin-top: 10.3rem;
+}
+@media (max-width: 985px) {
+  .container {
+    padding-right: 2.3rem;
+    padding-left: 2.3rem;
+  }
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero__title {
+    width: 327px;
+    height: 102px;
+    font-size: 40px;
+    line-height: 32px;
+    /* or 80% */
+
+    text-align: center;
+    letter-spacing: -1.42857px;
+  }
+  .hero__desc {
+    width: 327px;
+    height: 100px;
+    font-size: 19px;
+    line-height: 25px;
+    /* or 132% */
+
+    text-align: center;
+    letter-spacing: -0.633333px;
+  }
+  .item {
+    flex-direction: column;
+    margin-right: 2.4rem;
+    margin-left: 2.4rem;
+    padding: 1.6rem 6.6rem 1.5rem 7rem;
+  }
+  .feautes__list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .items {
+    width: 327px;
+    height: 248px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .feautes__img {
+    margin-top: 1.5rem;
+  }
+  .feautes__item1 {
+    margin-top: 4.9rem;
+  }
+  .feautes__item2 {
+    margin-top: 1.6rem;
+  }
+  .feautes__item3 {
+    margin-top: 1.6rem;
+    margin-bottom: 9.9rem;
+  }
+}
